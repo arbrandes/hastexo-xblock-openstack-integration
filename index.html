@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>OpenStack for Open edX: Inside and Out</title>
+    <title>Using the hastexo XBlock with OpenStack</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
@@ -26,37 +26,8 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>
-	  <div class="qrcode" id="qrcode-talk"/>
-	  <p><a href="http://hastexo.github.io/openedx2015" target="_blank"
-		id="talk">http://hastexo.github.io/openedx2015</a></p>
-        </section>
-        <section id="intro"
-                 data-markdown="markdown/intro.md"
-                 data-separator="^\n\n\n"
-                 data-separator-vertical="^\n\n"
-                 data-separator-notes="^Note:">
-        </section>
-        <section id="why"
-                 data-markdown="markdown/why.md"
-                 data-separator="^\n\n\n"
-                 data-separator-vertical="^\n\n"
-                 data-separator-notes="^Note:">
-        </section>
-        <section id="deploying"
-                 data-markdown="markdown/deploying.md"
-                 data-separator="^\n\n\n"
-                 data-separator-vertical="^\n\n"
-                 data-separator-notes="^Note:">
-        </section>
-        <section id="learning"
-                 data-markdown="markdown/learning.md"
-                 data-separator="^\n\n\n"
-                 data-separator-vertical="^\n\n"
-                 data-separator-notes="^Note:">
-        </section>
-        <section id="conclusion"
-                 data-markdown="markdown/conclusion.md"
+        <section id="main"
+                 data-markdown="markdown/main.md"
                  data-separator="^\n\n\n"
                  data-separator-vertical="^\n\n"
                  data-separator-notes="^Note:">
@@ -71,8 +42,8 @@
 // Full list of configuration options available here:
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
-    controls: false,
-    progress: false,
+    controls: true,
+    progress: true,
     history: true,
     center: true,
 
